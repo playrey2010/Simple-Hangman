@@ -40,7 +40,13 @@ public class SimpleHangman {
 
 
         while (lives>0) {
-            // long way to compare would include a nested for loop going through both array indexes and setting multiple conditions
+            // long way to compare would include for loop like so; we can set a variable for right amount of letters, and set the victory boolean to true
+            // if the amount of correct letters == the wordArray length. If not, set the right amount of letters back to zero so it is reset before the beginning
+            // of the next loop.
+//            for (int i = 0; i < wordArray.length; i++) {
+//                if (wordArray[i] == answerNow[i]) {}
+//            }
+            if (answerNow[])
             if (Arrays.equals(answerNow, wordArray)) {
                 victory = true;
                 break;
