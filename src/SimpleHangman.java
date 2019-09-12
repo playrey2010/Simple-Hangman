@@ -46,7 +46,7 @@ public class SimpleHangman {
 //            for (int i = 0; i < wordArray.length; i++) {
 //                if (wordArray[i] == answerNow[i]) {}
 //            }
-            if (answerNow[])
+//            if (answerNow[])
             if (Arrays.equals(answerNow, wordArray)) {
                 victory = true;
                 break;
